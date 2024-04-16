@@ -1,0 +1,13 @@
+runtime: python39
+env: standard
+service: ScalableWebApp
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: auto
+
+runtime_config:
+  python_version: 3.9
