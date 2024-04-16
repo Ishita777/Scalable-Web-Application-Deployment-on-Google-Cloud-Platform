@@ -1,5 +1,0 @@
-Requiring Python Packages:
-Flask==2.0.2
-Flask-SQLAlchemy==3.0.1
-psycopg2-binary==2.9.1
-google-cloud-storage==1.45.0
