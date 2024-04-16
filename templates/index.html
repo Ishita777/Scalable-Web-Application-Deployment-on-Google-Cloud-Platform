@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example App</title>
+</head>
+<body>
+    <h1>Example App</h1>
+    <ul>
+    {% for item in data %}
+        <li>{{ item.name }}</li>
+    {% endfor %}
+    </ul>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
